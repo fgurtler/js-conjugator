@@ -1,0 +1,8 @@
+{ 
+	"name": "conjugator",
+	"version": "0.0.1",	
+	"description": "a toy multi-lingual verb conjugation library",
+	"dependencies": {
+		"enum": "0.2.6"
+	}
+}
