@@ -39,9 +39,18 @@ verb.prototype.getEnding = function()
  
 verb.prototype.getStem = function()
 {
+	var tense = Grammemes.Tense 
 	switch(this.tense) {
-		case Grammemes.Tense.present:
+		case tense.present:
+		case tense.preterite:
+		case tense.imperfect:
 			return this.infinitive.substring(0, this.infinitive.length-2);
+			break;
+		case tense.future:
+		case tense.conditional:
+			return this.infinitive;
+			break;
+
 	}	
 }
 

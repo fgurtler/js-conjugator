@@ -3,6 +3,7 @@
 	"version": "0.0.1",	
 	"description": "a toy multi-lingual verb conjugation library",
 	"dependencies": {
-		"enum": "0.2.6"
+		"enum": "0.2.6",
+		"readline": "0.0.3"
 	}
 }

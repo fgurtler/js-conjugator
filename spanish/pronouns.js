@@ -3,8 +3,8 @@ module.exports =
 	'singular':
 	{
 		'first':'yo',
-		'second':'tu',
-		'third':'el'
+		'second':'tú',
+		'third':'él'
 	},
 	'plural':
 	{
